@@ -1,0 +1,34 @@
+ .paragraphs {
+     
+     border:solid 5px black ;
+     color:blue;
+    width:48%;
+    transition: 2s all linear;
+    font-size:40px;
+ }
+ 
+ .paragraphs:hover{
+     color:red;
+ }
+ 
+ 
+ 
+ body {
+     background-color:grey;
+     
+ }
+ 
+ 
+ h1 {
+     border-bottom:solid;
+     /*text-align:center;*/
+     margin-left:400px;
+     margin-right:400px;
+ }
+ 
+ 
+ a {
+  color:green;
+  
+ }
+ 
