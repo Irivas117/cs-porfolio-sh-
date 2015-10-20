@@ -5,6 +5,8 @@
     width:48%;
     transition: 2s all linear;
     font-size:40px;
+    text-align:center;
+    margin:auto ;
  }
  
  .paragraphs:hover{
@@ -27,8 +29,4 @@
  }
  
  
- a {
-  color:green;
-  
- }
  

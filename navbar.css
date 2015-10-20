@@ -1,15 +1,23 @@
-#navbar{
+#navbar {
     text-align:center;
+    
     
 }
 
 #navbar li {
     display:inline-block
-    border:2px solid black;
+
     
 }
 
-#navbar{
+#navbar a {
+ color:blue;
+ background-color:white ;
+ border:solid;    
+}
+
+
+ {
     
     
 }
