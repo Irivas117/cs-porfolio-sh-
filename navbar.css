@@ -1,11 +1,10 @@
 #navbar {
     text-align:center;
     
-    
 }
 
 #navbar li {
-    display:inline-block
+    display:inline-block;
 
     
 }
@@ -13,11 +12,12 @@
 #navbar a {
  color:blue;
  background-color:white ;
- border:solid;    
+ border:solid;   
+ transition:2s linear;
 }
 
 
- {
-    
-    
+ #navbar a:hover {
+    color:red ;
+    background-color:black;
 }
