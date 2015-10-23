@@ -1,22 +1,27 @@
  .paragraphs {
      
-     border:solid 5px black ;
+     border:solid 5px white ;
      color:blue;
     width:48%;
-    transition: 2s all linear;
-    font-size:40px;
+    transition:0.5s all ;
+    font-size:30px;
     text-align:center;
     margin:auto ;
  }
  
+ 
+ 
+ 
+ 
  .paragraphs:hover{
      color:red;
+     font-size:40px;
  }
  
  
  
  body {
-     background-color:gray ;
+     background-color:black ;
      
  }
  
@@ -28,5 +33,15 @@
      margin-right:400px;
  }
  
+ .headers{
+  font-size:30px;
+  text-align:center;
+  transition:2s ease;
+  color:white ;
+ }
  
+ .headers:hover {
+  color:blue ;
+  font-size:50px;
+ }
  

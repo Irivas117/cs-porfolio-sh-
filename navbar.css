@@ -14,6 +14,7 @@
  background-color:white ;
  border:solid;   
  transition:2s linear;
+ font-size:30px;
 }
 
 
@@ -21,3 +22,4 @@
     color:red ;
     background-color:black;
 }
+
