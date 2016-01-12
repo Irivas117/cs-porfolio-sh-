@@ -1,0 +1,25 @@
+body {
+    text-align:center;
+    background-color:gray ;
+    
+}
+
+#dropdown{
+    color:blue;
+}
+
+
+p{
+    border:solid;
+    border-color:blue;
+    margin-left:500px;
+    margin-right:500px;
+    
+}
+
+
+h1{
+    border-bottom:solid ;
+    margin-left:500px ;
+    margin-right:500px ;
+}

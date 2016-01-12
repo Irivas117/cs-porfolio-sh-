@@ -1,0 +1,25 @@
+#navbar {
+    text-align:center;
+    
+}
+    
+#navbar li {
+    display:inline-block;
+
+    
+}
+
+#navbar a {
+ color:blue;
+ background-color:white ;
+ border:solid;   
+ transition:2s linear;
+ font-size:30px;
+}
+
+
+ #navbar a:hover {
+    color:red ;
+    background-color:black;
+}
+
