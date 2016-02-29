@@ -1,8 +1,3 @@
-h1 {
-    text-align:center;
-    color:#F5FFFA;
-}
-
 #navbar {
     text-align:center;
     
@@ -26,27 +21,9 @@ h1 {
  #navbar a:hover {
     color:red ;
     background-color:black;
+ }
+ 
+.para{
+    
 }
-
-div{
-    color:#F5FFFA;
-}
-
-#item1{
-    margin-left:250px;
-    position:absolute;
-}
-
-#item2{
-    margin-left:850px;
-    margin-bottom:1350px;
-}
-
-
-
-
-
-p{
-    text-align:center;
-    font-size:25px;
-}
+ 

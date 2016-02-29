@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+    <style>
+        .face0 .face1 .face2 .face3 .face4 .face5{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <head>
+        <title>The die project  </title>
+    </head>
+    <body id= "body" background="http://hdwallnpics.com/wp-content/gallery/wallpaper-desktop-background-free-download/-paste-cool-desktop-backgrounds-free-background-wallpaper-com-d-s-ibackgroundz.com.jpg">
+     <link rel="stylesheet" href="part2.css" type="text/css" />
+
+<ul id="navbar">
+        <li> <a href="Infosite.html">Home</a></li>
+        <li> <a href="part2.html">About me</a></li>
+         <li> <a href="die.html">Die project</a></li>
+        <li><a href="dicepart2.html">Game</a></li>
+    </ul>   
+<div class="die">
+<script>
+var face0=new Image()
+face0.src="http://www.taroteca.es/imagenes/horoscopo/enciende_signos01035469.gif"
+var face1=new Image()
+face1.src="http://faculty.purchase.edu/jeanine.meyer/dice2.gif"
+var face2=new Image()
+face2.src="http://2.bp.blogspot.com/-zIzHdd_e3IM/Tfz1z_GQU7I/AAAAAAAAAEM/lxVTCfAe1Hw/s200/Dice3.jpg"
+var face3=new Image()
+face3.src="http://faculty.purchase.edu/jeanine.meyer/dice4.gif"
+var face4=new Image()
+face4.src="http://octm2012.weebly.com/uploads/1/0/4/9/10498524/chris_bolognese_42_e.gif"
+var face5=new Image()
+face5.src="http://weavervsworld.com/docs/think/rose/pcs/dice_6.gif"
+</script>
+</div>
+
+<img src="http://www.taroteca.es/imagenes/horoscopo/enciende_signos01035469.gif" name="mydice">
+<form>
+<input type="button" value="Throw dice!" onClick="throwdice()">
+</form>
+<script>
+function throwdice(){
+
+var randomdice=Math.round(Math.random()*5)
+document.images["mydice"].src=eval("face"+randomdice+".src")
+}
+</script>
+
+    </body>
+</html>
+
+
