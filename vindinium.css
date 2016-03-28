@@ -1,0 +1,49 @@
+body{
+    background-color:#66CCCC;
+}
+h1{
+    border:solid blue ;
+    text-align:center; 
+    margin-left:200px;
+    margin-right:200px;
+}
+
+
+pre{
+    border:solid;
+    text-align:center;
+    color:green ;
+    margin-left:150px;
+    margin-right:150px;
+    
+}
+
+code{
+    text-align:center
+}
+
+
+#nav {
+    text-align:center;
+    
+}
+
+#nav li {
+    display:inline-block;
+
+    
+}
+
+#nav a {
+ color:blue;
+ background-color:white ;
+ border:solid;   
+ transition:2s linear;
+ font-size:30px;
+}
+
+
+ #nav a:hover {
+    color:red ;
+    background-color:black;
+}
