@@ -1,14 +1,6 @@
 body{
-    background-color:#66CCCC;
+    background-color:black;
 }
-h1{
-    border:solid blue ;
-    text-align:center; 
-    margin-left:350px;
-    margin-right:350px;
-}
-
-
 pre{
     border:solid;
     text-align:center;
@@ -19,7 +11,7 @@ pre{
 }
 
 code{
-    text-align:center
+    
 }
 
 
@@ -35,8 +27,8 @@ code{
 }
 
 #nav a {
- color:blue;
- background-color:white ;
+ color:green;
+ background-color:black;
  border:solid;   
  transition:2s linear;
  font-size:20px;
@@ -49,14 +41,8 @@ code{
     background-color:black;
 }
 
-p{
-    border:solid ;
-    margin-right:350px;
-    margin-left:350px;
-    text-align:center;
-}
-
-
-img{
-    margin-left:850px;
+.hi{
+   border:solid red;
+    margin-right:1000px;
+    color:red;  
 }
