@@ -1,5 +1,5 @@
 body{
-    background-color:#66CCCC;
+    background-color:grey ;
 }
 h1{
     border:solid blue ;
@@ -12,14 +12,13 @@ h1{
 pre{
     border:solid;
     text-align:center;
-    color:green ;
     margin-left:150px;
     margin-right:150px;
     
 }
 
 code{
-    text-align:center
+    text-align:center;
 }
 
 
@@ -35,8 +34,8 @@ code{
 }
 
 #nav a {
- color:blue;
- background-color:white ;
+ color:white;
+ background-color:#66CCCC;
  border:solid;   
  transition:2s linear;
  font-size:20px;
@@ -54,9 +53,20 @@ p{
     margin-right:350px;
     margin-left:350px;
     text-align:center;
+    font-family:arial;
+    
 }
 
 
 img{
-    margin-left:850px;
+    margin-left:450px;
+}
+
+
+
+h2{
+    text-align:center;
+    border-bottom:solid;
+    margin-left:350px;
+    margin-right:350px;
 }

@@ -1,0 +1,73 @@
+body{
+    background-image: url("http://www.gordonmcalpine.net/wp-content/uploads/2012/12/basic-background-darker2.jpg");
+}
+
+h2{
+    font-size:40px;
+    color:blue;
+    border-bottom:solid;
+    margin-left:400px;
+    margin-right:400px;
+}
+
+
+
+#nav {
+    text-align:center;
+    
+}
+
+#nav li {
+    display:inline-block;
+
+    
+}
+
+#nav a {
+ color:blue;
+ background-color:white ;
+ border:solid;   
+ transition:2s linear;
+ font-size:30px;
+}
+
+
+ #nav a:hover {
+    color:red ;
+    background-color:black;
+}
+
+
+
+body {
+    text-align:center;
+    background-color:#C0C0C0;
+    
+}
+
+
+h1{
+    border:solid 10px ;
+    margin-left:400px;
+    margin-right:400px;
+    font-size:60px;
+}
+
+div a{
+    border:solid ;
+    color:green;
+    display:inline-block;
+    margin-top:100px;
+    
+}
+
+p{
+    margin-left:400px;
+    margin-right:400px ;
+}
+
+
+#lol{
+    position:fixed;
+
+}

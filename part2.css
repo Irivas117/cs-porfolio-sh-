@@ -1,25 +1,31 @@
-#navbar {
+
+
+#nav {
     text-align:center;
     
 }
     
-#navbar li {
+#nav li {
     display:inline-block;
 
     
 }
 
-#navbar a {
+#nav a {
  color:blue;
- background-color:white ;
+ background-color:black;
  border:solid;   
- transition:2s linear;
+ transition:.5s linear;
  font-size:30px;
 }
 
 
- #navbar a:hover {
+ #nav a:hover {
     color:red ;
     background-color:black;
+ }
+ 
+.para{
+    
 }
-
+ 

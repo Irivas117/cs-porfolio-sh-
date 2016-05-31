@@ -1,23 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Vindinium Introduction</title>
         <link rel="stylesheet" href="vindinium.css" type="text/css"/>
+        
     </head>
     <body>
-        <ul id="nav">
-            <li><a href="Vindinium.html">Home Page </a></li>
-            <li><a href="code.html">What is vindium about?</a></li>
-        </ul>
+      <ul id="nav">
+    <li><a href="index.html">Home</a></li>    
+    <li><a href="hardware.html">Hardware</a></li>
+     <li><a href="Vindinium.html">Vindinium</a></li>
+      <li><a href="calc.html">Calculator</a></li>
+      <li><a href="dicepart2.html">Dice Game</a></li>
+      <li><a href="die.html">Die Roll</a></li>
+      <li><a href="code.html">Ball is life </a></li>
+    </ul> 
         <h1>What is Vindinium?</h1>
-        <p>Vindinium is a game that requires the skills of a coder in order for the code to work. The scripting code that is used is called JavaScript. JavaScript is somewhat of a complicated coding which requires a lot of patience. 
-         Vindinium is also a very complicated because it involves a lot of JavaScript. 
-        Throughout this project 
-        </p>
-<img src="http://stratosprovatopoulos.com/wp-content/uploads/2014/02/screenshot.png"></img>
-        
-        
-        
+        <img src="http://stratosprovatopoulos.com/wp-content/uploads/2014/02/screenshot.png" height="250px" width="500px">
+        <p>Vindinium is a game that requires the skills of a coder in order for the code to work. It is also a competetive game that requires a lot of skill in javascript. In the game you own your very own AI(artificial intelligence) and you compete againts other players. In the game there is a specific amount of turns which is about 1,200 turns. During the course of the game to becoming a victor your AI must be able to collect freemines and attacking other players for their gold. In the game freemines are a way to get gold and win the game. Inorder for you to win you must have the most gold at the end of the game. 
+
+        <h2>Taverns</h2>
+        <p>This code here is how you heal. And a tavern basically is a small healing station that takes the form of a soda glass. </p>
+        <pre><code>if (task === "taverns") {
+            var closestTavern = bot.taverns[0];
+            for(i = 0; i < bot.taverns.length; i++){
+                if(bot.findDistance(myPos, closestTavern) > bot.findDistance(myPos, bot.taverns[i])) {
+                    closestTavern = bot.taverns[i];
+                }
+            }
+            console.log("Get Health!");
+            myDir = bot.findPath(myPos, closestTavern);
+        }</code></pre>
+    <p>This code talks about and makes the bot</p>
     
+    <h2>Free mines </h2>
+    <pre><code> if(task === "freemines") {
+            var closestMine = bot.freeMines[0];
+            for(i = 0; i < bot.freeMines.length; i++) {
+                if(bot.findDistance(myPos, closestMine) > bot.findDistance(myPos, bot.freeMines[i])) {
+                    closestMine = bot.freeMines[i];
+                }
+            }
+            console.log("Claiming a Free Mine!");
+            myDir = bot.findPath(myPos, closestMine);
+        }</code></pre>
+        <p>This code talks about how the freemines help the player's bot find the mines to obtain coins to win the game and use the coins to regenerate health at the taverns. Freemines are mines taht do have gold and resources to get you the money required for you to win the game, but there are goblins at the mines that do defend them. When touched the goblins will attack and you will lose health. </p>
+        
+        <h2>Attacking Players</h2>
+        <pre><code>        var enemytoattack = enemyBots[0];
+        for(i = 0; i < enemyBots.length ; i++){
+            if(bot.findDistance(myPos, [enemytoattack.pos.x, enemytoattack.pos.y]) > bot.findDistance(myPos, <br> [enemyBots[i].pos.x, enemyBots[i].pos.y]) ){ 
+            closestBot = enemyBots[i];
+            }
+        }</code></pre>
+        <p>This code here is for attacking other players. The only set of code does command the bot to move a specific way which is calculating and finding the position of the enemy  </p>
+        
+        
+        <h2>Tasks</h2>
+        <pre><code>  var task;
+        
+        if (bot.yourBot.life < 40) {
+            task = "taverns";
+        } 
+        else if(bot.yourBot.life > enemytoattack.life) {
+            task = "attack";
+        }
+        
+        else {
+            task = "freemines";</code></pre>
+            <p>This code here represents the function of the bot that</p>
     </body> 
 </html>
