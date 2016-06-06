@@ -50,3 +50,17 @@ h1{
     background-color:black;
 }
 
+#picture {
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+
+#pic{
+    border:none ;
+    position:fixed;
+    margin-bottom:50px;
+    margin-right:30px;
+}
